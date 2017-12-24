@@ -7,7 +7,7 @@
 
 
 #### 效果图
-![shot1](http://https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png)
+![DynamicImage](http://https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png)
 
 
 超长标签
