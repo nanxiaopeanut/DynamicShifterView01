@@ -7,12 +7,9 @@
 
 
 #### 效果图
-![DynamicImage](http://https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png)
+![DynamicImage](https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png)
 
-
-超长标签
-
-
+<img src="https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png" style=" width:100px ; height:100px " />
 
 #### 使用
 
