@@ -1,5 +1,5 @@
-# AutoNewLineLayout
-
+# 
+对AutoNewLineLayout控件做了部分修改
 这是Android上的一个线性自动换行布局控件
 
 - 处理了超长标签显示问题
