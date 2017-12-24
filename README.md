@@ -8,11 +8,11 @@
 
 #### 效果图
 
-![shot1](https://github.com/LineChen/AutoNewLineLayout/blob/master/screenshots/shot1.png)
+
 
 超长标签
 
-![shot2](https://github.com/LineChen/AutoNewLineLayout/blob/master/screenshots/shot2.png)
+
 
 #### 使用
 
