@@ -8,11 +8,11 @@
 
 #### 效果图
 
-![shot1](https://github.com/LineChen/AutoNewLineLayout/blob/master/screenshots/shot1.png)
+
 
 超长标签
 
-![shot2](https://github.com/LineChen/AutoNewLineLayout/blob/master/screenshots/shot2.png)
+
 
 #### 使用
 
@@ -36,7 +36,7 @@
 AutoNewLineLayout autoNewLineLayout;
 
     String[] tags = {"诛仙", "青云志" , "老九门", "花千骨", "琅琊榜", "伪装者", "仙剑奇侠传",
-            "诛仙", "青云志" , "老九门", "花千骨", "琅琊榜", "伪装者", "仙剑奇侠传仙剑奇侠传仙剑奇侠传仙剑奇侠传仙剑奇侠传仙剑奇侠传"};
+            "诛仙", "青云志" , "老九门", "花千骨", "琅琊榜", "伪装者", "仙剑奇侠传"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,11 +48,42 @@ AutoNewLineLayout autoNewLineLayout;
     }
 
     private void addTags() {
-        for (int i = 0; i < tags.length; i++) {
-            TextView tv = new TextView(this);
-            tv.setBackgroundResource(R.drawable.radius_border_teal_solod_white);
-            tv.setText(tags[i]);
-            autoNewLineLayout.addView(tv);
+         for (int i = 0; i < tags.length; i++) {
+            //实例化一个LinearLayout
+            LinearLayout llItem = new LinearLayout(this);
+            //设置LinearLayout属性(宽和高)
+            LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(getScWidth() / 4, 50);
+            //将以上的属性赋给LinearLayout
+            llItem.setLayoutParams(layoutParams);
+            llItem.setOrientation(LinearLayout.HORIZONTAL);
+
+
+            LinearLayout.LayoutParams tvColorParams = new LinearLayout.LayoutParams(
+                    10,
+                    10, 1);
+            TextView tvPoint = new TextView(this);
+            //设置textview垂直居中
+            tvColorParams.gravity = Gravity.CENTER_VERTICAL;
+            tvColorParams.setMargins(15, 0, 0, 0);
+            tvPoint.setLayoutParams(tvColorParams);
+            tvPoint.setBackgroundColor(Color.BLUE);
+            tvPoint.setBackground(getResources().getDrawable(R.drawable.radius_indictor_color));
+            llItem.addView(tvPoint);
+
+            LinearLayout.LayoutParams tvParams = new LinearLayout.LayoutParams(
+                    getScWidth() / 16 * 3,
+                    LinearLayout.LayoutParams.WRAP_CONTENT, 3);
+            TextView tvText = new TextView(this);
+            //设置textview垂直居中
+            tvParams.gravity = Gravity.CENTER_VERTICAL;
+            tvParams.setMargins(10, 0, 0, 0);
+            tvText.setLayoutParams(tvParams);
+            tvText.setTextSize(14);
+            tvText.setTextColor(Color.BLACK);
+            tvText.setText(tags[i]);
+            llItem.addView(tvText);
+
+            autoNewLineLayout.addView(llItem);
         }
     }
 
