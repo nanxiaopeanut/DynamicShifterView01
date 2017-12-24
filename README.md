@@ -7,7 +7,8 @@
 
 
 #### 效果图
-![Alt text](http://https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png "Optional title")
+![shot1](http://https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png)
+
 
 超长标签
 
