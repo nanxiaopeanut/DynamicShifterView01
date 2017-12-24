@@ -7,6 +7,7 @@
 
 
 #### 效果图
+https://help.github.com/articles/https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png
 
 DynamicShifterView01/screenshots/DynamicImage.png
 
