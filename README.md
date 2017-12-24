@@ -8,7 +8,7 @@
 
 #### 效果图
 
-https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png
+DynamicShifterView01/screenshots/DynamicImage.png
 
 超长标签
 
