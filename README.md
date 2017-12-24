@@ -8,7 +8,10 @@
 
 #### 效果图
 ![DynamicImage](https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png)
+
 I'm a new bird,hei! These two images is just to test how to pull up images to Github's READE.md,hahaha!
+
+
 <img src="https://github.com/nanxiaopeanut/DynamicShifterView01/blob/master/screenshots/DynamicImage.png" style=" width:100px ; height:100px " />
 
 #### 使用
